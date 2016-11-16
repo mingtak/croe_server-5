@@ -1,0 +1,47 @@
+#play {
+	display:none;
+}
+
+
+/*平板*/
+@media only screen and (max-width:800px) {
+	}
+
+
+/*手機板*/
+@media only screen and (max-width:570px) {
+#play {
+	display:block;
+	width:300px;
+	height:210px;
+	clear:both;
+	margin-top:10px;
+	margin-left:5%;
+	float:left;
+	overflow:hidden;
+}
+#play_text {
+	clear:both;
+	width:250px;
+	height:20px;
+	float:left;
+}
+#play_text UL {
+	FILTER: Alpha(Opacity=80); LIST-STYLE-TYPE: none; WIDTH: 219px; DISPLAY: block; HEIGHT: 20px; PADDING-TOP: 1px; opacity: 0.8; _padding-top: 0px
+}
+#play_text UL LI {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #000; MARGIN: 1px; WIDTH: 14px; DISPLAY: block; FONT-FAMILY: "Courier New"; FLOAT: left; HEIGHT: 14px; COLOR: #fff; CURSOR: pointer
+}
+#play_list {
+	width:300px;
+	height:200px;
+	float:left;
+	overflow:hidden;
+}
+#play_list a {
+	width:300px;
+	height:200px;
+	float:left;
+	overflow:hidden;
+}
+	}
